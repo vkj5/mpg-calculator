@@ -8,5 +8,6 @@ nodef calculate_mpg(distance: float, fuel: float) -> float:
     if distance < 0 or fuel < 0:
         raise ValueError("Distance and fuel must be non-negative.")
 
-    return (distance / fuel)
+    return round(distance / fuel, 2)
+
 

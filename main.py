@@ -5,5 +5,7 @@ fuel = float(input("Enter fuel (gallons): "))
 
 mpg = calculate_mpg(distance, fuel)
 
-print("MPG:", mpg)
+# print("MPG:", mpg)
+
+print(f"Final MPG: {mpg:.2f} miles/gallon")
 

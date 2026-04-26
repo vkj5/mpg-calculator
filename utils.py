@@ -1,4 +1,4 @@
-nodef calculate_mpg(distance: float, fuel: float) -> float:
+def calculate_mpg(distance: float, fuel: float) -> float:
     if not isinstance(distance, (int, float)) or not isinstance(fuel, (int, float)):
         raise TypeError("Inputs must be numbers.")
 

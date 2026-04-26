@@ -17,3 +17,5 @@ It takes user input for distance traveled and fuel used, then computes the MPG.
 ---
 
 ## Project Structure
+
+CItest trigger

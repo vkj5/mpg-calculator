@@ -1,5 +1,7 @@
 from utils import calculate_mpg
 
+print("This program calculates fuel efficiency (MPG).")
+
 distance = float(input("Enter distance (miles): "))
 fuel = float(input("Enter fuel (gallons): "))
 
